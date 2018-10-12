@@ -1,6 +1,6 @@
 import EventEmitter from 'events';
 import React, { Component } from 'react';
-import { WebView as NativeWebView } from 'react-native';
+import { WebView as NativeWebView } from 'rn-webview';
 import { RN_MESSAGES_CHANNEL_PREFIX } from './config';
 
 export class WebView extends Component {
